@@ -22,6 +22,7 @@ const Login = (props) => {
             type="text"
             name="username"
             className="form-control"
+            placeholder="Ingresa un usuario"
             onChange={(e) => props.setName(e.target.value)}
             value={props.name}
           />
@@ -32,6 +33,7 @@ const Login = (props) => {
             type="password"
             name="password"
             className="form-control"
+            placeholder="Ingresa una contraseña"
             onChange={(e) => props.setPass(e.target.value)}
             value={props.pass}
           />
